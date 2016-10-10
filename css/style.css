@@ -1,0 +1,263 @@
+header {
+  background-color: black;
+  color: white;
+  margin-top: -40px;
+  margin-left: -8px;
+  margin-right: -10px;
+}
+body {
+  background: url('file:/Users/williammayo/piano-game3/images/MJ_cover.jpg') no-repeat;
+  background-position: 30px 190px;
+  font-family: 'Orbitron', sans-serif;
+}
+h1 {
+  font-size: 40px;
+  padding: 40px 0 0px 20px;
+}
+h2 {
+  padding: 10px 10px 10px 20px;
+  margin-top: -40px;
+}
+h3 {
+  color: white;
+  padding: 20px;
+}
+h4 {
+  color: black;
+  font-size: 40px;
+}
+h5 {
+  color: black;
+  font-size: 20px;
+}
+li {
+  list-style: none;
+  padding: 10px 25px 10px 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  font-family: helvetica;
+  font-size: 20px;
+}
+.header-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 110%;
+  height: 170px;
+}
+.flex-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 37px;
+  width: 110%;
+  margin-left: -8px;
+  margin-top: -20px;
+  background-color: gray;
+}
+.all-keys {
+  display: flex;
+  max-width: 930px;
+  min-width: 930px;
+  max-height: 252px;
+  max-height: 252px;
+  margin-left: 20px;
+}
+.w-key {
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 250px;
+  width: 60px;
+  display: inline-block;
+  position: relative;
+  background-color: white;
+}
+.b-key {
+  background-color: black;
+  height: 154px;
+  width: 35px;
+  display: inline-block;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.key:hover {
+  background-color: #C4C4C4;
+  transition: .4s all;
+}
+.level {
+  margin-bottom: 20px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  margin-left: 20px;
+  font-size: 20px;
+  background-color: #D3D3D3;
+}
+.next {
+  display: inline;
+  margin-right: 30px;
+  padding: 10px;
+}
+.next-scale {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .1);
+  font-size: 40px;
+  color: gray;
+  padding: 5px;
+}
+.current-challenge {
+  padding: 10px;
+}
+.challenge {
+  margin-left: 20px;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, .1);
+  padding: 5px;
+}
+.play {
+  margin-left: 50px;
+  border: none;
+  width: 80px;
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  background-color: rgba(0, 0, 0, .1);
+}
+.ball-screen {
+  height: 250px;
+  width: 700px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 15px;
+  position: absolute;
+  display: inline-block;
+  background-image: url('file:/Users/williammayo/w3_project/piano-game/images/stage.jpg');
+}
+.ball {
+  position: absolute;
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+.fire {
+  position: absolute;
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 20px;
+  background-image: url('file:/Users/williammayo/w3_project/piano-game/images/fire.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 120px;
+  z-index: 2;
+}
+.reference {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#directions {
+  margin-top: 400px;
+}
+#c-sharp1 {
+  left: -13px;
+  position: relative;
+}
+#d1 {
+  left: -27.2px;
+  position: relative;
+}
+#d-sharp1 {
+  left: -40.2px;
+  position: relative;
+}
+#e1 {
+  left: -54.4px;
+  position: relative;
+}
+#f1 {
+  left: -55.5px;
+  position: relative;
+}
+#f-sharp1 {
+  left: -69.5px;
+  position: relative;
+}
+#g1 {
+  left: -82.5px;
+  position: relative;
+}
+#g-sharp1 {
+  left: -96px;
+  position: relative;
+}
+#a1 {
+  left: -109.5px;
+  position: relative;
+}
+#a-sharp1 {
+  left: -122.5px;
+  position: relative;
+}
+#b1 {
+  left: -136.5px;
+  position: relative;
+}
+#c2 {
+    left: -137.5px;
+  position: relative;
+}
+#c-sharp2 {
+  left: -151px;
+  position: relative;
+}
+#d2 {
+  left: -164.5px;
+  position: relative;
+}
+#d-sharp2 {
+  left: -178px;
+  position: relative;
+}
+#e2 {
+  left: -191.5px;
+  position: relative;
+}
+#f2 {
+  left: -192.2px;
+  position: relative;
+}
+#f-sharp2 {
+  left: -205px;
+  position: relative;
+}
+#g2 {
+  left: -219px;
+  position: relative;
+}
+#g-sharp2 {
+  left: -232px;
+  position: relative;
+}
+#a2 {
+  left: -246px;
+  position: relative;
+}
+#a-sharp2 {
+  left: -260px;
+  position: relative;
+}
+#b2 {
+  left: -273px;
+  position: relative;
+}

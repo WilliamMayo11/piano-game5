@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" charset="utf-8"></script>
+  <script src="scripts/app.js" charset="utf-8"></script>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <title>Michael Jackson Piano Game</title>
+</head>
+<body>
+<header class="header-flex">
+  <h1>Michael Jackson Piano Game</h1>
+  <h3>Welcome, </h3>
+</header>
+  <ul class="flex-ul">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">Game Page</a></li>
+    <li><a href="#directions">Directions</a></li>
+  </ul>
+
+<div class="flex-page">
+
+<div class="level">
+  <div class="current-challenge">Current challenge: </div>
+  <div class="challenge">C Major</div>
+  <div class="next">Next:</div>
+    <div class="next-scale">G Major</div>
+
+  <button class="play">Play!</button>
+</div>
+
+<div class="keys-and-stage">
+<div class="all-keys">
+    <div class="w-key" id="c1"></div>
+    <div class="b-key start" id="c-sharp1"></div>
+    <div class="w-key" id="d1"></div>
+    <div class="b-key adjacent" id="d-sharp1"></div>
+    <div class="w-key" id="e1"></div>
+    <div class="w-key" id="f1"></div>
+    <div class="b-key skip" id="f-sharp1"></div>
+    <div class="w-key" id="g1"></div>
+    <div class="b-key adjacent" id="g-sharp1"></div>
+    <div class="w-key" id="a1"></div>
+    <div class="b-key adjacent" id="a-sharp1"></div>
+    <div class="w-key" id="b1"></div>
+    <div class="w-key" id="c2"></div>
+    <div class="b-key skip" id="c-sharp2"></div>
+    <div class="w-key" id="d2"></div>
+    <div class="b-key adjacent" id="d-sharp2"></div>
+    <div class="w-key" id="e2"></div>
+    <div class="w-key" id="f2"></div>
+    <div class="b-key skip" id="f-sharp2"></div>
+    <div class="w-key" id="g2"></div>
+    <div class="b-key adjacent" id="g-sharp2"></div>
+    <div class="w-key" id="a2"></div>
+    <div class="b-key adjacent" id="a-sharp2"></div>
+    <div class="w-key" id="b2"></div>
+  </div>
+
+
+    <div class="ball-screen"></div>
+    <div class="ball">
+      <img src="images/moonwalk.gif" alt="Moonwalker" id="mj">
+    </div>
+    <div class="fire"></div>
+</div>
+
+<div id="directions">
+  <h4>Directions</h4>
+  <hr>
+  <h5>Keep Michael out of the fire!</h5>
+  <p>In the "Current Challenge" box, one of the 12
+   major scales<br> will be presented. Click the correct
+   piano keys in the correct order<br> and Michael Jackson
+   will safely walk away from the fire.<br>But be careful! If
+   you don't click the next note in time,<br> Michael will
+   moonwalk directly into the blaze!<br><br>Note: Make sure
+   to start at the lowest avialable note<br>on the piano
+   for each scale.<br><br>Below are the correct notes
+   in each major scale:</p>
+</div>
+<div class="reference">
+  <img src="images/scales1.jpg" alt="Scales1" class="scales1">
+  <img src="images/scales2.jpg" alt="Scales2" class="scales2">
+</div>
+
+</div>
+
+
+
+<audio src="audio/c1.wav" id="ac1"></audio>
+<audio src="audio/c-sharp1.wav" id="ac-sharp1"></audio>
+<audio src="audio/d1.wav" id="ad1"></audio>
+<audio src="audio/d-sharp1.wav" id="ad-sharp1"></audio>
+<audio src="audio/e1.wav" id="ae1"></audio>
+<audio src="audio/f1.wav" id="af1"></audio>
+<audio src="audio/f-sharp1.wav" id="af-sharp1"></audio>
+<audio src="audio/g1.wav" id="ag1"></audio>
+<audio src="audio/g-sharp1.wav" id="ag-sharp1"></audio>
+<audio src="audio/a1.wav" id="aa1"></audio>
+<audio src="audio/a-sharp1.wav" id="aa-sharp1"></audio>
+<audio src="audio/b1.wav" id="ab1"></audio>
+<audio src="audio/c2.wav" id="ac2"></audio>
+<audio src="audio/c-sharp2.wav" id="ac-sharp2"></audio>
+<audio src="audio/d2.wav" id="ad2"></audio>
+<audio src="audio/d-sharp2.wav" id="ad-sharp2"></audio>
+<audio src="audio/e2.wav" id="ae2"></audio>
+<audio src="audio/f2.wav" id="af2"></audio>
+<audio src="audio/f-sharp2.wav" id="af-sharp2"></audio>
+<audio src="audio/g2.wav" id="ag2"></audio>
+<audio src="audio/g-sharp2.wav" id="ag-sharp2"></audio>
+<audio src="audio/a2.wav" id="aa2"></audio>
+<audio src="audio/a-sharp2.wav" id="aa-sharp2"></audio>
+<audio src="audio/b2.wav" id="ab2"></audio>
+<audio src="audio/ow.mp3" id="ow"></audio>
+<audio src="audio/dont_stop.mp3" id="dont-stop"></audio>
+</body>
+</html>
