@@ -1,5 +1,5 @@
 body {
-  background: url('file:/Users/williammayo/piano-game3/images/pandora_background.jpg') no-repeat;
+  background: url('../images/pandora_background.jpg') no-repeat;
   background-size: contain 0;
   background-position: -360px 0px;
 }

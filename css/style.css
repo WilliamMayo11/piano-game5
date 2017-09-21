@@ -6,7 +6,7 @@ header {
   margin-right: -10px;
 }
 body {
-  background: url('file:/Users/williammayo/piano-game3/images/MJ_cover.jpg') no-repeat;
+  background: url('../images/MJ_cover.jpg') no-repeat;
   background-position: 30px 190px;
   font-family: 'Orbitron', sans-serif;
 }
@@ -141,7 +141,7 @@ p {
   margin-top: 15px;
   position: absolute;
   display: inline-block;
-  background-image: url('file:/Users/williammayo/w3_project/piano-game/images/stage.jpg');
+  background-image: url('../images/stage.jpg');
 }
 .ball {
   position: absolute;
@@ -154,7 +154,7 @@ p {
   display: inline-block;
   margin-top: 200px;
   margin-left: 20px;
-  background-image: url('file:/Users/williammayo/w3_project/piano-game/images/fire.png');
+  background-image: url('../images/fire.png');
   background-size: 40%;
   background-repeat: no-repeat;
   height: 120px;
